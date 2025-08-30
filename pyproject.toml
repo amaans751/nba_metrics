@@ -1,0 +1,20 @@
+[project]
+name = "nba-metrics-amaan"
+version = "0.1.0"
+description = "Custom performance metrics for NBA draft ML project"
+authors = [
+    {name = "M Amaan Shaikh amaans751@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = "3.11.4"
+dependencies = [
+    "numpy (>=2.3.2,<3.0.0)",
+    "pandas (>=2.3.2,<3.0.0)",
+    "scikit-learn (>=1.7.1,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

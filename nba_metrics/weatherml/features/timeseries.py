@@ -13,7 +13,7 @@ def build_features(daily_df: pd.DataFrame) -> pd.DataFrame:
             add_rolls(df, col)
             df[f"{col}_lag1"] = df[col].shift(1)
             df[f"{col}_lag7"] = df[col].shift(7)
-    doy = pd.to_datetime(df["time"]).dayofyear
+    doy = pd.to_datetime(df["time"], errors="coerce").dt.dayofyear
     df["doy_sin"] = np.sin(2*np.pi*doy/366)
     df["doy_cos"] = np.cos(2*np.pi*doy/366)
     return df

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nba-metrics"
-version = "0.2.0"
+version = "0.2.3"
 description = "Metrics and utilities for NBA (AT1) + Weather ML (AT2)"
 authors = ["Mohammed Amaan Shaikh amaans751@gmail.com"]
 license = "MIT"

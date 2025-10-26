@@ -1,10 +1,11 @@
-# nba-metrics-amaan
+# nba-metrics
 
-Reusable helpers for evaluating imbalanced NBA draft prediction models.
+Reusable helpers for evaluating imbalanced NBA draft prediction models, and more.
 
 ## Install (TestPyPI)
 ```bash
-pip install -i https://test.pypi.org/simple/nba-metrics-amaan==0.2.3
+pip install -i https://test.pypi.org/simple/nba-metrics-amaan==0.2.4
+
 
 
 
